@@ -1,4 +1,4 @@
-[] Membuat Logo 
+[X] Membuat Logo 
 
 [] membuat box atas website 
 
