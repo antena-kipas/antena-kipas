@@ -1,6 +1,36 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     color: lime;
 }
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(152, 166, 168, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0;
+  }
+
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+
+  .header-left {
+    float: left;
+    padding: 0px;
+  }

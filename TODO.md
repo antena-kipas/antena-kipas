@@ -1,5 +1,5 @@
 [X] Membuat Logo 
 
-[] membuat box atas website 
+[x] membuat box atas website 
 
-[] membuat box atas agar tetap.
+[x] membuat box atas agar tetap.
