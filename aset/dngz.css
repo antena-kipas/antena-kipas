@@ -26,11 +26,13 @@ header {
   }
 
   .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 212px;
+    margin-top: 10px;
+    height: 45px;
   }
 
   .header-left {
     float: left;
     padding: 0px;
+    height: 65px;
   }
