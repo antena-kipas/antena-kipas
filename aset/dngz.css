@@ -50,6 +50,33 @@ body {
     height: 65px;
   }
 
+  /*===*/
+
+  .menu-3 {
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu-3 input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -5px;
+    opacity: 0;
+  }
+
+  .menu-3 span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: aqua;
+    border-radius: 3px;
+  }
+
   /* css untuk tablet */
 
   @media screen and (max-width: 768px) {
