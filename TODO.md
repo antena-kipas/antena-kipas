@@ -6,5 +6,4 @@
 
 [] Membuat Nav-Bar bagian atas pada Header
 
-[] Belajar gethalfmoon
-
+[] Membuat isi halaman blog

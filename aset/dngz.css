@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
   }
 
 body {
@@ -9,20 +11,31 @@ body {
     color: lime;
 }
 
-header {
-    height: 65px;
+  .container {
     width: 100%;
+    /*padding: 20px 0;*/
     background-color: rgba(152, 166, 168, 0.9);
-    position :fixed;
-    top: 0;
-    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
   }
 
-  .container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0;
+  .container ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+  }
+
+  .container ul li a {
+    color: aqua;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+
+  .container ul li a:hover {
+    color: aquamarine;
   }
 
   .logo {
@@ -36,3 +49,21 @@ header {
     padding: 0px;
     height: 65px;
   }
+
+  /* css untuk tablet */
+
+  @media screen and (max-width: 768px) {
+    .container ul {
+      width: 50%;
+    }
+  }
+
+  /* ukuran mobile */
+
+  @media screen and (max-width: 576px){
+    .container ul {
+      display: none;
+    }
+  }
+
+
