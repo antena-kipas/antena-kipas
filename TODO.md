@@ -4,6 +4,6 @@
 
 [x] membuat box atas agar tetap.
 
-[] Membuat Nav-Bar bagian atas pada Header
+[x] Membuat Nav-Bar bagian atas pada Header
 
 [] Membuat isi halaman blog

@@ -107,9 +107,11 @@ body {
       background-color: rgba(152, 166, 168, 0.9);
       transform: translateX(100%);
       transition: all 1s;
+      opacity: 0;
     }
 
     .container ul.slide{
+      opacity: 1;
       transform: translateX(0);
     }
   }

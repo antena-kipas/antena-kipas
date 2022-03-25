@@ -14,7 +14,7 @@
                 <img class="logo" src="../antena-kipas/aset/logo_antena_kipas.png">
             </div>
 
-            <ul>
+            <ul class="">
                 <li><a href="">Home</a></li>
                 <li><a href="">Halaman</a></li>
                 <li><a href="">Tools</a></li>
@@ -30,7 +30,14 @@
         </div>
 
 
-        <script src="about.js"></script>
+        <script>
+            const menuToggle = document.querySelector('.menu-toggle input');
+            const nav = document.querySelector('.container ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('slide');
+            });
+        </script>
     </header>
 </body>
 </html>
